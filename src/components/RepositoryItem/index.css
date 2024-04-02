@@ -1,0 +1,93 @@
+/* Write your CSS here */
+
+@media (min-width: 768px) {
+  .each-li {
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 320px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-family: Roboto;
+  }
+
+  .each-li-img {
+    width: 25%;
+  }
+
+  .each-li-heading {
+    color: #e73959;
+    font-size: 30px;
+  }
+
+  .each-li-symbol {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .each-li-symbol-img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+  }
+
+  .each-li-symbol-text {
+    color: #1e293b;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .each-li {
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    margin: 10px;
+    flex-grow: 1;
+    font-family: Roboto;
+  }
+
+  .each-li-img {
+    width: 25%;
+  }
+
+  .each-li-heading {
+    color: #e73959;
+    font-size: 20px;
+  }
+
+  .each-li-symbol {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .each-li-symbol-img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .each-li-symbol-text {
+    color: #1e293b;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,50 @@
+/* Write your CSS here */
+@media (max-width: 768px) {
+  .language-filter-list-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Roboto;
+  }
+  .language-filter-list-button {
+    border: none;
+    background-color: #ffffff;
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    height: 40px;
+    min-width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .active {
+    border: 2px solid #0284c7;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .language-filter-list-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Roboto;
+  }
+  .language-filter-list-button {
+    border: none;
+    background-color: #ffffff;
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    height: 40px;
+    min-width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .active {
+    border: 2px solid #0284c7;
+    border-radius: 20px;
+  }
+}
